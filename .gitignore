@@ -1,0 +1,40 @@
+# Python / local environments
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Everything the pipeline writes (regenerate with `make reproduce`)
+outputs/
+logs/
+cache/
+data/processed/
+data/mappings/food_to_prototype.pkl
+data/raw/meals/dataframes/
+data/raw/meals/discontinued/
+
+# Local files kept outside version control
+/archive/
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cursor/
+/*.log

@@ -1,0 +1,77 @@
+{
+  "figures": [
+    {
+      "id": "figure_2",
+      "title": "Meal Cluster Structure",
+      "output_dir": "figure_2_clustering",
+      "pipeline_generated": true,
+      "panels": [
+        {
+          "id": "A-C",
+          "title": "Meal cluster landscapes",
+          "source": "outputs/clustering/combined_tsne_landscape.svg"
+        }
+      ]
+    },
+    {
+      "id": "figure_3",
+      "title": "CVAE Fidelity, RDI Alignment, and Nutrient Profiles",
+      "output_dir": "figure_3_cvae_rdi",
+      "pipeline_generated": true,
+      "panels": [
+        {
+          "id": "A",
+          "title": "Similarity and diversity by archetype",
+          "source": "outputs/runs/{RUN_NAME}/figures/overview_real_vs_generated_rdi.svg"
+        },
+        {
+          "id": "B",
+          "title": "Nutritional shifts by meal type",
+          "source": "outputs/runs/{RUN_NAME}/figures/spider_plots_comprehensive.svg"
+        },
+        {
+          "id": "C",
+          "title": "Deviation from USDA targets by archetype",
+          "source": "outputs/runs/{RUN_NAME}/figures/boxplots_rdi_deviation_real_vs_generated.svg"
+        }
+      ]
+    },
+    {
+      "id": "figure_4",
+      "title": "Healthier, Lower-Cost Food Substitutions",
+      "output_dir": "figure_4_substitutions",
+      "pipeline_generated": true,
+      "panels": [
+        {
+          "id": "A-meals",
+          "title": "Worked 1-hop and 2-hop substitution example",
+          "source": "outputs/runs/{RUN_NAME}/substitutions_k3/figure4a/fixed_meal_composition.svg"
+        },
+        {
+          "id": "A-ratios",
+          "title": "Per-nutrient ratios of the example substitutions",
+          "source": "outputs/runs/{RUN_NAME}/substitutions_k3/figure4a/figure_substitution_foldchange_two_panels.svg"
+        },
+        {
+          "id": "B",
+          "title": "Cost-benefit tradeoff by theta and k",
+          "source": "outputs/runs/{RUN_NAME}/substitutions_k3/figures_theta_sweep/figure_cost_benefit_points_by_theta_and_k.svg"
+        },
+        {
+          "id": "C-D",
+          "title": "Category add/remove substitution patterns",
+          "source": "outputs/runs/{RUN_NAME}/substitutions_k3/figures_theta_sweep/figure_category_scatter_plus_heatmap_k123.svg"
+        }
+      ]
+    }
+  ],
+  "supplement_globs": [
+    "outputs/clustering/**/*.svg",
+    "outputs/clustering/**/*.png",
+    "outputs/runs/{RUN_NAME}/**/*.svg",
+    "outputs/runs/{RUN_NAME}/**/*.png"
+  ],
+  "exclude_globs": [
+    "outputs/manuscript/**"
+  ]
+}

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "Diet Recommendation System: code for 'Translating Dietary Standards into Healthy Meals with Few-Ingredient Substitutions'"
+message: "If you use this code, please cite the article."
+type: software
+version: 1.0.0
+abstract: >-
+  Code that reproduces the analyses of the article: meals built from the NHANES / What We Eat in
+  America dietary recalls, 34 meal archetypes found with HDBSCAN, a conditional variational
+  autoencoder that generates meals per archetype, portioning toward USDA targets, and one- to
+  three-food substitutions evaluated for nutrition and cost.
+keywords:
+  - nutrition
+  - meal generation
+  - dietary recommendations
+  - conditional variational autoencoder
+  - NHANES
+  - food substitution
+authors:
+  - family-names: Chan
+    given-names: Trevor
+    affiliation: "University of California, Davis"
+  - family-names: Tagkopoulos
+    given-names: Ilias
+    affiliation: "University of California, Davis"
+repository-code: "https://github.com/AI-Institute-Food-Systems/Diet_Recommendation_System"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Translating Dietary Standards into Healthy Meals with Few-Ingredient Substitutions"
+  authors:
+    - family-names: Chan
+      given-names: Trevor
+    - family-names: Tagkopoulos
+      given-names: Ilias
+  journal: "PLOS Digital Health"
+  year: 2026
+  doi: "10.1371/journal.pdig.0001367"

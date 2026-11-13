@@ -1,0 +1,43 @@
+{
+  "cvae_model": {
+    "epochs": 150,
+    "batch_size": 128,
+    "learning_rate": 0.0005,
+    "dropout_rate": 0.1,
+    "latent_dim": 64,
+    "encoder_sizes": [512, 256, 128, 64],
+    "cluster_embedding_dim": 32,
+    "meal_embedding_dim": 32,
+    "meal_types": ["Breakfast", "Lunch", "Dinner"],
+
+    "presence_eps": 10,
+    "presence_pos_weight": 10,
+    "focal_gamma": 0,
+
+    "kl_free_bits": 0.1,
+    "kl_warmup_epochs": 30,
+    "patience": 15,
+
+    "cond_dim": 256,
+    "film_blocks": 3,
+    "lambda_ac": 0.9,
+    "guidance_drop_prob": 0.5,
+    "meal_guidance_drop_prob": 0.3,
+    "kl_weight": 1,
+    "kl_annealing_epochs": 10,
+    "presence_pos_weight_max": 15,
+    "ac_detach": false
+  },
+  "monitor": {
+    "enabled": true,
+    "every": 2,
+    "G": 1000,
+    "coverage_n": 1000,
+    "bootstraps": 200,
+    "early_stop": false,
+    "patience": 8,
+    "min_delta": 0.002,
+    "csv_name": "diversity_monitor.csv",
+    "seed": 123
+  }
+}

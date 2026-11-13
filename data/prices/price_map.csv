@@ -1,0 +1,481 @@
+food_code,food_name,price_per_100g_usd,justification,source
+11100000,"Milk, NFS",0.12,Jug milk ~$4.45/gal ⇒ ≈$0.12/100 g prepared,BLS CPI average prices; big‑box grocers
+11211050,"Milk, evaporated, whole",0.6,Common can price converts ≈$0.6/100 g liquid,Representative US grocers
+11220000,"Milk, condensed, sweetened",1.2,Sweetened condensed milk pricier per 100 g,Representative US grocers
+11300100,"Non-dairy milk, NFS",0.15,Plant milks typically $3–$5/half‑gal ⇒ ~$0.12–0.18/100 g,Representative US grocers
+11320000,Soy milk,0.15,Tracks other plant milks per 100 g,Representative US grocers
+11435010,"Yogurt, Greek, whole milk, flavors other than fruit",0.6,32‑oz tubs ~$5–$6 ⇒ ~$0.60–0.70/100 g,Representative US grocers
+11436000,"Yogurt, liquid",0.25,Drinkable yogurt multipacks ≈$0.20–0.30/100 g,Representative US grocers
+11460250,"Yogurt, frozen, flavors other than chocolate, with sorbet or sorbet-coated",0.95,Retail froyo/novelty pricing >$0.8/100 g,Representative US grocers
+11480010,"Baby Toddler yogurt, plain",1.4,Single‑serve baby yogurts are premium,Representative US grocers
+11512120,"Hot chocolate / Cocoa, ready to drink, made with non-dairy milk and whipped cream",1.3,RTD/café cocoa >$1/100 g,Representative café/RTD pricing
+11513550,"Chocolate milk, made from syrup with reduced fat milk",0.15,Should track plain milk per 100 g,Representative US grocers
+11542200,"Milk shake, fast food, flavors other than chocolate",3,Fast‑food shakes expensive per mass,Representative fast‑food menus
+11710357,"Infant formula, Similac Advance, powder, made with tap water",2,Reconstituted formula >$1/100 g prepared,Representative US retailers
+11710379,"Infant formula, Similac Sensitive, powder, made with baby water",2,Similar to Advance when prepared,Representative US retailers
+11812000,"Milk, dry, not reconstituted, low fat (1%)",2.5,Milk powder typically $2–3/100 g,Representative US retailers
+11830150,"Cocoa powder, not reconstituted",2.2,Branded cocoa ≈$2.2/100 g,Representative US retailers
+11830160,"Chocolate beverage powder, dry mix, not reconstituted",1.8,Nesquik‑style mixes ≈$1.7–2.1/100 g,Representative US retailers
+11830165,"Chocolate beverage powder, light, dry mix, not reconstituted",1.8,Light variants similar pricing,Representative US retailers
+11830260,"Milk, malted, dry mix, not reconstituted",1.8,Malted mix jars ≈$1.7–2.0/100 g,Representative US retailers
+11830400,"Strawberry beverage powder, dry mix, not reconstituted",1.8,Flavor variant similar per 100 g,Representative US retailers
+12140000,"Cream, whipped",1.25,Aerosol cans ≈$1.2–1.4/100 g,Representative US retailers
+12210210,"Coffee creamer, liquid, flavored",0.33,Large bottles ≈$0.31–0.34/100 g,Representative US retailers
+12210310,"Coffee creamer, liquid, sugar free, flavored",0.4,Sugar‑free variant slightly higher,Representative US retailers
+12210400,"Coffee creamer, powder",0.7,Large tubs ≈$0.7–0.8/100 g,Representative US retailers
+12210430,"Coffee creamer, powder, fat free",0.7,Fat‑free similar per 100 g,Representative US retailers
+13110100,"Ice cream, vanilla",1.1,Take‑home tubs near ~$1/100 g,Representative US retailers
+13110112,"Ice cream, chocolate, with additional ingredients",1.2,Add‑ins push cost per mass,Representative US retailers
+13210410,"Pudding, rice",0.95,Snack cups ~>$0.8/100 g,Representative US retailers
+13230130,"Pudding, chocolate, ready-to-eat",0.95,Snack cups ~>$0.8/100 g,Representative US retailers
+13411000,White sauce or gravy,0.75,Jarred sauces ~>$0.6/100 g,Representative US retailers
+14010000,"Cheese, NFS",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+14109030,"Cheese, Swiss, reduced fat",1.5,Sliced Swiss ~$6–8/lb ⇒ ~$1.3–1.8/100 g,Representative US retailers
+14204010,"Cheese, cottage, low fat",0.8,Tubs price ≈$0.7–0.9/100 g,Representative US retailers
+14410380,"Cream cheese spread, fat free",0.9,Tubs ≈$0.8–0.95/100 g,Representative US retailers
+14502000,Imitation cheese,0.8,Processed slices >$0.7/100 g,Representative US retailers
+14620200,Cheese dip,0.9,Shelf‑stable queso ≈$0.8–0.95/100 g,Representative US retailers
+14640050,"Cheese sandwich, American cheese, on white bread, with butter",2.3,Prepared deli sandwich >$2/100 g,Representative delis/fast‑food
+20000000,"Meat, NFS",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+20000090,"Meat sticks, baby food, NS as to type of meat",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+21101130,"Beef steak, broiled or baked, lean only eaten",2.4,Raw steak + cook loss ⇒ >$2/100 g,Representative US retailers
+21500310,"Beef, ground, patty",1.6,Cooked ground beef ≈$1.4–1.8/100 g,Representative US retailers
+24100000,"Chicken, NS as to part and cooking method, NS as to skin eaten",1,Cooked chicken generally ≈$1/100 g,Representative US retailers
+24122131,"Chicken breast, baked, broiled, or roasted, skin not eaten, from raw",1,Cook loss pushes near $1/100 g,Representative US retailers
+24122160,"Chicken breast, baked, broiled, or roasted with marinade, skin eaten, from raw",1.5,Marinade/skin raises per mass,Representative US retailers
+24127220,"Chicken breast, fried, coated, skin / coating eaten, from fast food / restaurant",1.6,Breaded FF items >$1.5/100 g,Representative fast‑food
+24198747,"Chicken tenders or strips, breaded, from other sources",1.6,Frozen breaded tenders >$1.4/100 g,Representative US retailers
+25120000,Heart,1,"Offal cheaper raw, cooked per 100 g near $1",Representative US retailers
+25220105,Beef sausage,1.7,Deli sausage >$1.5/100 g,Representative US retailers
+25221406,"Pork sausage, reduced fat",1.3,Packaged sausage ≈$1.1–1.4/100 g,Representative US retailers
+25221500,"Salami, NFS",1.8,Deli salami ~>$1.6/100 g,Representative US retailers
+25230210,"Ham, prepackaged or deli, luncheon meat",1.3,Sliced ham ~>$1.1/100 g,Representative US retailers
+25230560,Liverwurst,1.2,Specialty deli ~>$1/100 g,Representative US retailers
+26100120,"Fish, NS as to type, baked or broiled",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+26100270,"Fish, stick",1.5,Frozen fish sticks >$1/100 g,Representative US retailers
+26107123,"Fish, catfish, grilled",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+26115142,"Flounder, coated, fried, made with margarine",1.6,Prepared fried fish >$1.4/100 g,Representative US retailers/menus
+26137122,"Salmon, baked or broiled, made with margarine",2.2,Salmon cooked ~>$2/100 g,Representative US retailers; seafood
+26155190,"Tuna, canned, water pack",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+26158020,"Fish, tilapia, baked or broiled, coated",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+26158130,"Fish, white, mixed species, fried",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+26158150,"Fish, white, mixed species, grilled",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+26313110,Mussels,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+26319123,"Shrimp, grilled",3,Shrimp is premium per edible 100 g,Representative US retailers/menus
+26319145,"Shrimp, coated, fried, from fast food / restaurant",3.5,FF fried shrimp pricier per mass,Representative fast‑food
+27100100,"Barbecue meat, NFS",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27111100,Beef goulash,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27111405,"Chili con carne with beans, from restaurant",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27111406,"Chili con carne with beans, home recipe",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27111407,"Chili con carne with beans, canned",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27112010,Salisbury steak with gravy,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27113200,Creamed chipped or dried beef,2.6,Prepared entrée >$2/100 g,Representative US retailers
+27115000,Beef with soy-based sauce,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27120120,Sausage gravy,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27135020,Veal scallopini,3,Veal entrée premium,Representative US menus
+27144000,Chicken or turkey with mushroom sauce,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27145000,Chicken or turkey with teriyaki,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27146350,Orange chicken,3,Restaurant Chinese entrée,Representative US menus
+27150200,Oyster sauce,1.4,Bottle sauces ~>$1/100 g,Representative US retailers
+27212000,"Beef and noodles, no sauce",1.8,Beef pasta cannot be $0.25/100 g,Representative US menus
+27212350,Beef stroganoff with noodles,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27213010,Biryani with meat,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27232000,Lamb or mutton and potatoes with tomato-based sauce,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27242300,Chicken or turkey and noodles with cream or white sauce,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27242310,Chicken or turkey and noodles with cheese sauce,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27250030,Codfish ball or cake,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27250070,"Fish, salmon cake or patty",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27250610,Tuna noodle casserole with cream or white sauce,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27260080,Meat loaf made with beef and pork,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27260100,"Meat loaf made with beef and pork, with tomato-based sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27311410,"Beef stew with potatoes and vegetables including carrots, broccoli, and/or dark-green leafy; gravy",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27311605,"Beef, potatoes, and vegetables excluding carrots, broccoli, and dark-green leafy; gravy",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27311645,"Beef, potatoes, and vegetables including carrots, broccoli, and/or dark-green leafy; soy-based sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27335100,Rabbit stew with potatoes and vegetables,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27341050,"Chicken or turkey, potatoes, and vegetables excluding carrots, broccoli, and dark-green leafy; cheese sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27343480,"Chicken or turkey, noodles, and vegetables excluding carrots, broccoli, and/or dark-green leafy; cream sauce, white sauce, or mushroom sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27345010,"Chicken or turkey, rice, and vegetables including carrots, broccoli, and/or dark-green leafy; no sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27347100,"Pot pie, chicken",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27350110,Bouillabaisse,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27362000,"Stewed tripe, with potatoes, Puerto Rican style",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27363100,Jambalaya with meat and rice,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27416150,Pepper steak,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27442110,"Chicken or turkey and vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, gravy",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27443110,"Chicken or turkey a la king with vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, cream, white, or soup-based sauce",1.1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27445110,"Chicken or turkey and vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, soy-based sauce",0.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27445120,"Chicken or turkey and vegetables excluding carrots, broccoli, and dark-green leafy; no potatoes, soy-based sauce",0.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27445150,General Tso chicken,3,Restaurant Chinese entrée,Representative US menus
+27446200,"Chicken or turkey salad, made with mayonnaise",2.5,Deli chicken salad >$2/100 g,Representative US delis
+27446315,"Chicken or turkey garden salad with bacon and cheese, chicken and/or turkey, bacon, cheese, lettuce and/or greens, tomato and/or carrots, other vegetables, no dressing",1.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27446320,"Chicken or turkey, breaded, fried, garden salad with bacon and cheese, chicken and/or turkey, bacon, cheese, lettuce and/or greens, tomato and/or carrots, other vegetables, no dressing",1.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27446360,"Chicken or turkey caesar garden salad, chicken and/or turkey, lettuce, tomato, cheese, no dressing",2.6,Prepared salads premium per mass,Representative US delis
+27446400,"Chicken or turkey and vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, cheese sauce",2.5,Sauce + protein raises per mass,Representative US delis
+27450030,Salmon salad,2.9,Seafood deli salad pricey per mass,Representative US delis
+27450060,"Tuna salad, made with mayonnaise",2.1,Deli tuna salad >$1.8/100 g,Representative US delis
+27450062,"Tuna salad, made with mayonnaise-type salad dressing",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27510251,"Cheeseburger, 1 medium patty, with condiments, on white bun",2.5126,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27510312,"Bacon cheeseburger, 1 medium patty, with condiments, on bun, from fast food / restaurant",2.9556,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27510486,"Triple cheeseburger, 3 medium patties, with condiments, on bun, from fast food / restaurant",2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27510552,Whopper Jr (Burger King),2.5662,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27510700,Meatball sandwich or sub,2.2,Subs typically >$2/100 g,Representative US sandwich chains
+27514030,Cheese steak sandwich or sub on white,2.4,Cheesesteaks price >$2/100 g,Representative US sandwich shops
+27516010,Gyro sandwich,2.3773,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27520135,"Bacon, chicken, and tomato club sandwich, with cheese, lettuce and spread",2.5,Clubs >$2/100 g,Representative US sandwich shops
+27520370,"Hot ham and cheese sandwich, on bun",2.2,Align with common FF/deli pricing,Representative US sandwich shops
+27520500,Barbecue rib sandwich,2.245,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27540110,"Sliced chicken sandwich, with spread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27540145,"Chicken fillet biscuit, from fast food",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27540150,"Chicken fillet, breaded, fried, sandwich with lettuce, tomato and spread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27540170,"Chicken patty sandwich, miniature, with spread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27540240,"Chicken fillet, broiled, sandwich, on whole wheat roll, with lettuce, tomato and spread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27540296,Buffalo chicken submarine sandwich with cheese,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27541000,"Turkey, ham, and roast beef club sandwich, with lettuce, tomato and spread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27541001,"Turkey, ham, and roast beef club sandwich with cheese, lettuce, tomato, and spread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27545010,"Turkey or chicken burger, with condiments, on bun, from fast food / restaurant",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27550000,"Fish sandwich, fried, from fast food",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27550750,"Tuna salad submarine sandwich, with lettuce and tomato",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27560300,Corn dog,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27560520,Salami sandwich on white,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27560650,Sausage on biscuit,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27560910,"Cold cut sumarine sandwich, with cheese, lettuce, tomato and spread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27564060,"Hot dog sandwich, beef, on white bun",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27564242,"Frankfurter or hot dog sandwich, chicken and/or turkey, plain, on whole wheat bun",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27564280,"Frankfurter or hot dog sandwich, chicken and/or turkey, plain, on whole grain white bread",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+27564440,"Chili hot dog sandwich, on white bun",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+28110310,"Salisbury steak with gravy, potatoes, vegetable, frozen meal",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+28110330,"Salisbury steak with gravy, whipped potatoes, vegetable, dessert, frozen meal",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+28350050,Fish chowder,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+28355110,"Clam chowder, New England, NS as to prepared with water or milk",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+28500020,"Gravy, meat, with fruit",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+31108100,"Egg, white, cooked, NS as to fat",0.3527,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+32105200,"Egg foo yung, NFS",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+32129990,"Egg omelet or scrambled egg, NS as to fat",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+32202040,"Egg, cheese, and beef on English Muffin",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+32202070,"Egg, cheese, and bacon on biscuit",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41101020,"Beans, from dried, NS as to type, no added fat",0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41101200,"White beans, canned, drained, low sodium, NS as to fat added in cooking",0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41202510,"Beans and tomatoes, fat added",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41205017,"Refried beans, from fast food / restaurant",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41205075,"Hummus, flavored",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41208030,Pork and beans,0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41410015,Soy chips,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41420010,Soybean curd,0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41420250,Hoisin sauce,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41420300,Soy sauce,0.3527,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41810610,"Chicken, meatless, breaded, fried",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+41811890,"Veggie burger patty, no bun",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+42106020,"Coconut, packaged",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+42110110,"Mixed nuts, with peanuts, lightly salted",1.4,Big canisters ≈$1.4–2.3/100 g,Representative US retailers
+42116050,Walnuts,1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+42202000,Peanut butter,1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+42204050,Peanut sauce,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+42302020,"Peanut butter and jelly sandwich, with regular peanut butter, regular jelly, on wheat bread",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+42401010,"Coconut milk, used in cooking",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+42402010,"Coconut cream, canned, sweetened",0.75,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+43102100,"Sunflower seeds, plain, salted",1.25,16 oz ~$5.69 ⇒ ~$1.25/100 g,Representative US retailers
+43108010,Chia seeds,1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51108010,"Focaccia, Italian, plain",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51121045,"Garlic bread, with parmesan cheese, from fast food / restaurant",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51154100,"Roll, white, hamburger bun",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51161280,"Pan Dulce, with raisins and icing",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51182020,Bread stuffing made with egg,0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51184250,"Breadsticks, soft, topped with melted cheese",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51184260,"Breadsticks, soft, stuffed or topped with melted cheese",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51185000,Croutons,0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51188100,Pannetone,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51188500,Zwieback toast,0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51300110,"Bread, whole wheat",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+51320070,"Roll, wheat or cracked wheat, hamburger bun",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52102040,"Biscuit, from refrigerated dough",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52104200,Biscuit with fruit,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52105200,"Scone, with fruit",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52201000,"Cornbread, prepared from mix",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52202060,"Cornbread, made from home recipe",1.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52204000,Cornbread stuffing,1.1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52208760,"Gordita/sope shell, plain, no filling",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52215100,"Tortilla, corn",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52215300,"Taco shell, corn",1.9,12‑ct boxes ≈$1.9/100 g low end,Representative US grocers
+52302010,"Muffin, fruit",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52302020,"Muffin, fruit, low fat",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52302500,"Muffin, chocolate chip",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52304010,"Muffin, wheat bran",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52304150,"Muffin, oat bran",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52306500,"Muffin, pumpkin",1.6,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52306700,"Muffin, carrot",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+52404060,"Bread, pumpkin",1.1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53102200,"Cake or cupcake, apple",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53104550,"Cheesecake, fruit",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53105270,"Cake or cupcake, chocolate with chocolate icing, bakery",1.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53206000,"Cookie, chocolate chip",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53206020,"Cookie, chocolate chip, made from home recipe or purchased at a bakery",0.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53208200,"Cookie, marshmallow pie, chocolate covered",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53209015,"Cookie, chocolate sandwich",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53224000,"Cookie, ladyfinger",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53233010,"Cookie, oatmeal, with raisins",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53233040,"Cookie, oatmeal, reduced fat, NS as to raisins",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53244020,"Cookie, butter or sugar, with icing or filling other than chocolate",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53247050,"Cookie, vanilla wafer, reduced fat",1.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53260030,"Cookie, chocolate chip, sugar free",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53301000,"Pie, apple",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53347000,"Pie, pumpkin",0.6,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53410880,"Cobbler, plum",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53430200,"Crepe, fruit filled",0.8455,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53451500,"Turnover, guava",1.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53452420,"Pastry, puff, custard or cream filled, iced or not iced",1.3186,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53521130,"Doughnut, yeast type, with chocolate icing",2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53530000,Breakfast tart,0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53710400,Cereal or granola bar (General Mills Fiber One Chewy Bar),1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53710500,Cereal or granola bar (Kellogg's Nutri-Grain Cereal Bar),1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53710504,Cereal or granola bar (Kellogg's Nutri-Grain Fruit and Nut Bar),1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53710600,Milk 'n Cereal bar,1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53710700,Cereal or granola bar (Kellogg's Special K bar),1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53710800,Cereal or granola bar (Kashi Chewy),1.9,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53711000,Cereal or granola bar (Quaker Chewy Granola Bar),1.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53712100,"Cereal or Granola bar, NFS",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53712200,"Cereal or granola bar, lowfat, NFS",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53720200,Nutrition bar (Clif Bar),1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53720300,Nutrition bar (PowerBar),1.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53720610,Nutrition bar (South Beach Living High Protein Bar),0.4314,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53729000,"Nutrition bar or meal replacement bar, NFS",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+53800000,"Baby Toddler snack, NFS",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54102020,"Graham crackers, chocolate covered",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54301100,"Crackers, butter, reduced fat",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54304000,"Crackers, cheese",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54307000,"Crackers, matzo",0.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54319000,"Crackers, rice",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54325000,"Crackers, saltine",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54336000,"Crackers, water",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54338000,"Crackers, wheat",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54350010,"Gerber Finger Foods, Puffs, baby food",8.3,1.48 oz (42 g) ~$3.49 ⇒ ~$8.3/100 g,Representative US retailers
+54401065,"Cheese flavored corn snacks, reduced fat",1.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54401081,Cheese flavored corn snacks (Cheetos),1.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+54401110,"Tortilla chips, nacho cheese flavor (Doritos)",2.3,Family bags ≈$2.1–2.4/100 g,Representative US retailers
+54403091,"Popcorn, ready-to-eat packaged, kettle corn, light",2.8,RTE popcorn ≈$2.6–2.9/100 g,Representative US retailers
+54408070,"Pretzels, hard, multigrain",1.1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55101000,"Pancakes, plain",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55106000,"Pancakes, gluten free",0.6,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55200040,"Waffle, fruit, frozen",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55200090,"Waffle, gluten free, from frozen",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55203000,"Waffle, fruit",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55301000,"French toast, plain",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55301020,"French toast, whole grain, reduced fat",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55301048,"French toast sticks, school",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55301050,"French toast sticks, plain",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55610300,"Dumpling, no meat",1.1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55701000,Cake made with glutinous rice,2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+55702100,"Dosa, plain",0.9975,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+56203056,"Oatmeal, regular or quick, made with water, no added fat",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+56203066,"Oatmeal, regular or quick, made with milk, no added fat",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+56203555,"Oatmeal, reduced sugar",1.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+56204005,"Quinoa, no added fat",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+56205001,"Rice, white, cooked, NS as to fat",0.3527,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57125000,"Cereal, cinnamon toast",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57214000,"Cereal, shredded wheat, flavored",0.6,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57309100,Cereal (Nature Valley Granola),1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57316380,Cereal (General Mills Cheerios Oat Cluster Crunch),0.72,24 oz ~$4.93 ⇒ ~$0.72/100 g,Representative US retailers
+57330000,Cereal (Kellogg's Raisin Bran),0.6,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57339000,Cereal (Kellogg's Rice Krispies),1,18 oz boxes ~$5 ⇒ ~$1/100 g,Representative US retailers
+57344020,Cereal (Kellogg's Special K Vanilla Almond),1.2,18 oz boxes ~$6.2 ⇒ ~$1.2/100 g,Representative US retailers
+57401100,"Cereal, O's, NFS",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57416000,"Cereal, plain puffs",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57420100,"Cereal, other, NFS",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57602100,"Oats, raw",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+57805090,"Baby Toddler cereal, rice with fruit, dry",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58100010,"Burrito, taco, or quesadilla with egg and breakfast meat",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58100120,Burrito with meat and beans,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58100325,"Burrito with beans, meatless, from fast food",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58100360,Chilaquiles,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58100535,"Enchilada with meat, green-chile or enchilada sauce",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58100630,"Enchilada with chicken, red-chile or enchilada sauce",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101323,"Taco or tostada with meat, from fast food",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101345,Soft taco with meat,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101347,"Soft taco with meat, from fast food",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101457,"Soft taco with chicken, from fast food",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101460,Soft taco with chicken and sour cream,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101610,Soft taco with beans,0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101620,Soft taco with meat and beans,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101800,Ground beef with tomato sauce and taco seasonings on a cornbread crust,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101830,Frito pie,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58101930,Taco or tostada salad with meat,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58102680,"Burrito, cheese only",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58103130,"Tamale, chicken",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58103250,"Tamale, no meat",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58104135,"Nachos, beef or pork, with beans",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58104180,"Nachos with meat, cheese, and sour cream",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58104520,"Chimichanga, with beans",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58104530,"Chimichanga, chicken",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58104900,"Taquito, egg",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58104990,"Fajita, NFS",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58105110,"Pupusa, meat",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58106555,"Pizza with pepperoni, from restaurant or fast food,  medium crust",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58106604,"Pizza with meat other than pepperoni, from frozen, medium crust",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58106720,"Pizza with meat and vegetables, from restaurant or fast food, thin crust",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58108050,Pizza rolls,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58110110,"Egg roll, meatless",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58112510,"Wonton, dumpling or pot sticker, steamed",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58116125,"Empanada, chicken",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58117210,"Cornmeal stick, Puerto Rican style",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58117410,Bacalaitos fritos,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58126270,"Turnover or hot pocket, chicken",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58126280,"Turnover, chicken- or turkey-, and vegetable-filled, lower in fat",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58126290,Turnover or lean pocket,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58126300,"Turnover, meat- and cheese-filled, tomato-based sauce, lower in fat",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58126400,"Turnover or breakfast pocket, egg",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58127110,Vegetables in pastry,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58128120,Cornmeal dressing with chicken or turkey and vegetables,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58130016,"Lasagna with meat, frozen",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58130020,Lasagna with meat and spinach,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58131330,"Ravioli, meat-filled, with cream sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58131510,"Ravioli, cheese-filled, no sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58131590,"Ravioli, cheese and spinach-filled, no sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58131600,"Ravioli, cheese and spinach-filled, with cream sauce",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58136160,"Lo mein, with chicken",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58137240,Pad Thai with seafood,1.25,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58145110,Macaroni or noodles with cheese,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58145111,"Macaroni or noodles with cheese, from restaurant",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58145112,"Macaroni or noodles with cheese, made from packaged mix",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58145135,Macaroni or noodles with cheese and meat,0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58145136,"Macaroni or noodles with cheese and meat, prepared from Hamburger Helper mix",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58145140,Macaroni or noodles with cheese and tomato,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58146323,"Pasta with tomato-based sauce and meat, ready-to-heat",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58146423,"Pasta with cream sauce and poultry, ready-to-heat",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58148110,"Macaroni or pasta salad, made with mayonnaise",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58150320,"Rice, fried, with chicken",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58151230,"Sushi roll, vegetable",3.5,Grocery veg rolls ~$6.99/~200 g,Representative US grocers; sushi case
+58160110,Beans and white rice,0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58160130,Rice with beans and chicken,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58160150,Kidney beans and white rice,0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58160490,"Rice, white, with peas and carrots, NS as to fat",0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58160700,"Rice, white, with other vegetables, NS as to fat",0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58161200,"Rice, cooked with coconut milk",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58162090,"Stuffed pepper, with meat",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58163130,Dirty rice,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58163405,"Spanish rice, from restaurant",0.25,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58163430,"Spanish rice, NS as to fat",0.25,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58175110,Tabbouleh,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58306010,"Beef enchilada dinner, NFS, frozen meal",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58306100,"Chicken enchilada, diet frozen meal",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58401010,"Barley soup, home recipe, canned, or ready-to-serve",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58407030,"Soup, mostly noodles",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+58503020,"Macaroni, tomatoes, and beef, baby food, junior",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+61204010,"Lemon juice, 100%, freshly squeezed",1.5,Lemon yield converts ≈$1.2–1.9/100 g juice,Representative US produce pricing
+62101050,"Fruit mixture, dried",1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+63105010,"Avocado, raw",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+63115010,"Cherries, raw",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+63311000,"Fruit salad, fresh or raw,  excluding citrus fruits, no dressing",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+63320100,"Fruit salad, Puerto Rican style",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+63402960,"Fruit salad, excluding citrus fruits, with whipped cream",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+63402980,"Fruit salad, excluding citrus fruits, with marshmallows",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+63409010,"Guacamole, NFS",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+64100100,"Fruit juice, NFS",0.3527,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+64120010,"Papaya juice, 100%",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+67100350,"Baby Toddler fruit and vegetables, Stage 2",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+67104060,"Applesauce with bananas, baby food, junior",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71200100,"Potato chips, plain",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71200110,"Potato chips, barbecue flavored",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71202500,"Potato chips, lightly salted",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71305050,"Potato, scalloped, from dry mix",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71401030,"Potato, french fries, fast food",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71401032,"Potato, french fries, from frozen, fried",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71403030,"Potato, home fries, from restaurant / fast food",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71404020,"Potato, hash brown, from fast food, with cheese",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71405019,"Potato, hash brown, from fresh, with cheese",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71501010,"Potato, mashed, from fresh, made with milk",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71503010,Potato patty,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71900200,"Plantain, cooked with oil",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71905110,"Fried ripe plantain, Puerto Rican style",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+71962020,"Dasheen, cooked",0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+72125211,"Spinach, fresh, cooked, no added fat",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+72125260,Spinach and cheese casserole,1.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+72201231,"Broccoli, cooked, from fresh, with cheese sauce",0.9,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+72307000,Spinach soup,1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+73111220,"Peas and carrots, cooked, NS as to form",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+73401000,"Sweet potato, NFS",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+73410400,"Sweet potato fries, fast food / restaurant",3.3,Medium fries ~115 g for ~$3.7–4.0 ⇒ ~$3.2–3.5/100 g,Representative fast‑food menus
+73501000,"Carrot soup, cream of, prepared with milk, home recipe, canned or ready-to-serve",1.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+74101000,"Tomatoes, raw",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+74202051,"Tomatoes, red, from fresh, fried",0.4365,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+74303000,"Tomato and vegetable juice, 100%",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+74401010,Ketchup,0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+74402150,"Salsa, red",0.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+74602010,"Tomato soup, prepared with water, or ready-to-serve",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75105000,"Cabbage, red, raw",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75109500,"Chives, raw",12,Fresh herb clamshells ~$2.5–$3.5 for ~20 g,Representative US grocers; produce
+75109550,"Cilantro, raw",1.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75111500,"Garlic, raw",1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75113000,"Lettuce, raw",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75121000,"Pepper, hot chili, raw",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75132000,Mixed vegetable juice,0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75140990,"Coleslaw, fast food / restaurant",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75141000,Coleslaw,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75143000,"Lettuce, salad with assorted vegetables including tomatoes and/or carrots, no dressing",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75146000,"Greek Salad, no dressing",2.775,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75200700,Aloe vera juice drink,0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75202010,"Asparagus, cooked, NS as to form, fat not added in cooking",0.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75219033,"Mushrooms, fresh, cooked with oil",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75224010,"Peas, green, cooked, NS as to form, NS as to fat added in cooking",0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75228000,"Rutabaga, cooked, NS as to fat added in cooking",0.15,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75302205,"Beans, string, green, with onions, cooked, fat not added in cooking",0.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75315000,"Peas and corn, cooked, NS as to fat added in cooking",0.2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75403020,Green bean casserole,1.1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75410550,Stuffed jalapeno pepper,0.2711,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75414500,Fried okra,1.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75440100,"Vegetable combination, including carrots, broccoli, and/or dark-green leafy; cooked, with soy-based sauce",0.6,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75440600,Vegetable curry,1.4,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75503040,"Pickles, sweet",0.7,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75503090,Horseradish,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75506010,Mustard,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75506100,Honey mustard dip,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75510050,Olive tapenade,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+75611010,"Vegetable soup, cream of, prepared with milk",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+76202000,"Carrots and peas, baby food, strained",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+76205020,"Squash, baby food, junior",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+76209010,"Baby Toddler sweet potatoes, Stage 1",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+81103130,"Margarine like spread, whipped, tub, salted",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+81104100,"Margarine like spread, fat free, tub, salted",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+81200100,"Oil or table fat, NFS",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+81301000,Garlic sauce,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+81302060,Horseradish sauce,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+83100200,"Salad dressing, NFS, for sandwiches",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+83110000,Mayonnaise-type salad dressing,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+83201000,"Blue or roquefort cheese dressing, light",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+83204030,"Mayonnaise, reduced fat,  with olive oil",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+83205450,"Italian dressing, light",0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+83300100,"Blue or roquefort cheese dressing, fat free",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91101020,"Sugar, white, confectioner's, powdered",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91200110,"Sugar substitute, saccharin, liquid",2,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91300100,Pancake syrup,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91304020,"Topping, chocolate",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91304090,Chocolate hazelnut spread,1.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91306020,"Caramel dip, regular",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91361020,Fruit sauce,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91405000,"Jam or jelly, sugar free",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91407150,"Bean paste, sweetened",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91611000,Popsicle,0.3,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91700010,"Candy, NFS",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91705050,"Milk chocolate candy, with fruit and nuts",4.5,Single bars imply ~$4–5/100 g,Representative US retailers
+91705080,"Chocolate candy, cookie filled",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91706020,"Candy, non chocolate, other, NFS",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91708030,Fruit leather and fruit snacks candy,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91718300,"Ladoo, round ball",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+91732100,Planters Peanut Bar,1,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+92102400,"Iced Coffee, brewed",0.3527,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+92191100,"Coffee, instant, not reconstituted",6.3,7‑oz jar ~$12–13 ⇒ ~$6–6.5/100 g,Representative US retailers
+92191200,"Coffee, instant, decaffeinated, not reconstituted",6,Decaf jars ~$10.7–12.6/198 g,Representative US retailers
+92410250,"Water, carbonated, flavored",0.16,12‑pk cans ~$4–7 ⇒ ~$0.10–0.18/100 g,Representative US retailers
+92410320,"Soft drink, cola, diet",0.1636,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+92510955,"Lemonade, fruit juice drink",0.3527,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+92530610,"Fruit juice drink, with high vitamin C",0.3527,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+93102200,"Beer, light, higher alcohol",0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+93301030,Bloody Mary,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+93301450,Liqueur with cream,0.5,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+94000010,"Water, NFS",0.03,Bulk multipacks imply ~$0.02–0.03/100 g,Representative US retailers
+94220215,"Water, bottled, flavored, sugar free (Glaceau Vitamin Water)",0.3,20 fl oz bottle ~$1.78 ⇒ ~$0.30/100 g,Representative US retailers
+95103000,"Nutritional drink or shake, ready-to-drink (Ensure)",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+95110010,"Nutritional drink or shake, ready-to-drink, sugar free (Slim Fast)",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+95201000,Nutritional powder mix (Carnation Instant Breakfast),0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+95210000,Nutritional powder mix (Slim Fast),0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+95220010,"Nutritional powder mix, high protein, NFS",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+95230010,"Nutritional powder mix, protein, soy based, NFS",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+95230030,"Nutritional powder mix, protein, NFS",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.
+95313200,"Energy drink, sugar free",0.8,Kept as-is: within plausible US retail/restaurant range (2024–2025).,General benchmark: BLS CPI Average Prices + representative US retail/menu listings.

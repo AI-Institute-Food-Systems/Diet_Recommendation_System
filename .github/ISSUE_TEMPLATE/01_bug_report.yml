@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a problem with the scripts, the Makefile or a pipeline stage
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include enough detail to reproduce the issue. Do not paste API keys or other secrets.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Commands run from the repository root, e.g. `make ci` or `make reproduce`.
+      placeholder: |
+        1. …
+        2. …
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, and the output of `python scripts/check_env.py`.
+      placeholder: |
+        - OS:
+        - Python:
+        - check_env.py:
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / traceback (optional)
+      description: Redact paths if needed.

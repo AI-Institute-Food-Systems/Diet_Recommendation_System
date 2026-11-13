@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Article (PLOS Digital Health)
+    url: https://doi.org/10.1371/journal.pdig.0001367
+    about: Chan & Tagkopoulos (2026), the article this code accompanies.
