@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0 (unreleased)
+## v1.0.0 (2026-11-13)
 
 First release, accompanying Chan & Tagkopoulos (2026), *PLOS Digital Health* 5(5): e0001367
 ([doi:10.1371/journal.pdig.0001367](https://doi.org/10.1371/journal.pdig.0001367)).

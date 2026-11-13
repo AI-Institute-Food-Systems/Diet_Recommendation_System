@@ -3,6 +3,7 @@ title: "Diet Recommendation System: code for 'Translating Dietary Standards into
 message: "If you use this code, please cite the article."
 type: software
 version: 1.0.0
+date-released: 2026-11-13
 abstract: >-
   Code that reproduces the analyses of the article: meals built from the NHANES / What We Eat in
   America dietary recalls, 34 meal archetypes found with HDBSCAN, a conditional variational
