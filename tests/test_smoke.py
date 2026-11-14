@@ -58,6 +58,8 @@ class EntryPointTest(unittest.TestCase):
         ["-m", "experiments.substitution_foldchange.plot_nutrient_fold_changes", "--help"],
         ["scripts/generate_manuscript_numbers_log.py", "--help"],
         ["scripts/export_manuscript_figures.py", "--help"],
+        ["experiments/gpt_comparison/generate_meals.py", "--help"],
+        ["experiments/gpt_comparison/evaluate.py", "--help"],
     ] + [["-m", f"analyses.{name}", "--help"] for name in (
         "cluster_stability", "leakage_safe_clustering_cv", "lof_outlier_sensitivity",
         "meal_split_sensitivity", "portion_ablation", "nutrient_level_summary",
@@ -69,6 +71,65 @@ class EntryPointTest(unittest.TestCase):
             with self.subTest(entry_point=" ".join(args)):
                 r = _run(args)
                 self.assertEqual(r.returncode, 0, msg=(r.stderr or r.stdout)[-3000:])
+
+
+class GPTComparisonTest(unittest.TestCase):
+    """Parsing and evaluation of the GPT comparison, without API access."""
+
+    def setUp(self) -> None:
+        if str(REPO_ROOT) not in sys.path:
+            sys.path.insert(0, str(REPO_ROOT))
+
+    def test_parse_keeps_catalogue_foods_only(self) -> None:
+        from experiments.gpt_comparison.generate_meals import parse_meals
+        content = json.dumps({"meals": [
+            {"meal_id": 1, "items": [{"code": "11111111", "grams": 100},
+                                     {"code": "99999999", "grams": 50},     # not in the catalogue
+                                     {"code": "22222222", "grams": 2000}]},  # grams out of range
+            {"meal_id": 3, "items": [{"code": "22222222", "grams": 40}]},
+        ]})
+        self.assertEqual(parse_meals(content, 3, {"11111111", "22222222"}),
+                         [{"11111111": 100.0}, None, {"22222222": 40.0}])
+        self.assertEqual(parse_meals("not json", 2, {"11111111"}), [None, None])
+
+    def test_foods_are_looked_up_by_code(self) -> None:
+        import numpy as np
+        from experiments.gpt_comparison.evaluate import evaluate
+        # Three foods; nutrients per 100 g: energy, protein, fat, carbohydrate.
+        names = ["energy_kcal", "protein_g", "fat_g", "carb_g"]
+        nutrition = {
+            "feature_names": ["11111111", "22222222", "33333333"],
+            "W_per100g": np.array([[400.0, 100.0, 0.0, 0.0],     # protein only
+                                   [900.0, 0.0, 100.0, 0.0],     # fat only
+                                   [400.0, 0.0, 0.0, 100.0]]),   # carbohydrate only
+            "nutrient_names": names,
+            "RDI": np.array([2000.0, 50.0, 78.0, 275.0]),
+        }
+        meal = {"pair_code": 0, "meal_idx": 0, "cluster_id": 0, "sample_idx": 0, "success": True}
+        results = {"cvae_meals": [meal | {"foods": {"11111111": 100.0}}],
+                   "gpt_meals": [meal | {"foods": {"33333333": 50.0, "22222222": 50.0}},
+                                 meal | {"success": False, "foods": None}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            out = evaluate(results, nutrition, Path(tmp))
+        self.assertAlmostEqual(out["cvae"]["protein_pct"], 100.0)
+        # 50 g carbohydrate (200 kcal) and 50 g fat (450 kcal).
+        self.assertAlmostEqual(out["gpt"]["carb_pct"], 100.0 * 200 / 650)
+        self.assertAlmostEqual(out["gpt"]["fat_pct"], 100.0 * 450 / 650)
+        self.assertEqual((out["gpt"]["n_meals"], out["gpt_meals_requested"]), (1, 2))
+
+    def test_env_file_does_not_override_environment(self) -> None:
+        from experiments.gpt_comparison.common import load_env_file
+        with tempfile.TemporaryDirectory() as tmp:
+            env = Path(tmp) / ".env"
+            env.write_text("# comment\nGPT_TEST_A=from_file\nexport GPT_TEST_B='quoted'\n")
+            os.environ["GPT_TEST_A"] = "from_env"
+            try:
+                load_env_file(env)
+                self.assertEqual(os.environ["GPT_TEST_A"], "from_env")
+                self.assertEqual(os.environ["GPT_TEST_B"], "quoted")
+            finally:
+                os.environ.pop("GPT_TEST_A", None)
+                os.environ.pop("GPT_TEST_B", None)
 
 
 class NumbersLogTest(unittest.TestCase):

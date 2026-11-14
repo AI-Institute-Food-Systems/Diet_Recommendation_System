@@ -1,0 +1,2 @@
+# Extra package for the optional GPT comparison (make gpt-generate), on top of requirements.txt.
+openai==1.109.1

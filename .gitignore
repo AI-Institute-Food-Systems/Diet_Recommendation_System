@@ -28,6 +28,7 @@ data/raw/meals/discontinued/
 # Secrets
 .env
 .env.*
+!.env.example
 *.pem
 credentials.json
 

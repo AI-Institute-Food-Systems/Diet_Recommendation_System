@@ -54,6 +54,13 @@ K_NEAREST ?= 50
 REST_OVERHEAD_USD ?= 2.0
 SWEEP_THETAS ?= 0 0.25 0.5 1 2 1000
 
+# GPT comparison (optional; needs OPENAI_API_KEY and requirements-gpt.txt)
+GPT_MODEL ?= gpt-4o
+GPT_N ?= 100
+GPT_BATCH ?= 10
+GPT_OUT ?= $(OUT)/gpt_comparison/$(GPT_MODEL)
+GPT_RESULTS ?= $(GPT_OUT)/experiment_results.json
+
 ifeq ($(strip $(DETERMINISTIC)),1)
   EVAL_DET_FLAG := --deterministic
 else
@@ -93,7 +100,7 @@ SUB_ALPHA_BETA = alpha=0.10; beta=0.5; \
 .PHONY: help setup verify-env ci reproduce preprocess clustering cvae_train eval substitutions \
         theta_sweep figure4a manuscript-figures verify-manuscript-figures manuscript-numbers smoke \
         supplementary sup-clustering sup-evaluation sup-substitutions condition-ablation \
-        status pipeline-status clean clean-scratch clean-generated
+        gpt-comparison gpt-generate gpt-evaluate status pipeline-status clean clean-scratch clean-generated
 
 help:
 	@echo "make setup               create .venv and install the pinned requirements"
@@ -103,6 +110,7 @@ help:
 	@echo "make supplementary       S1 sensitivity, robustness and cost analyses (after reproduce)"
 	@echo "make condition-ablation  retrain without cluster conditioning (a few minutes)"
 	@echo "make smoke               quick train/eval/substitution check (needs clustering outputs)"
+	@echo "make gpt-comparison      CVAE vs GPT meals (after eval; needs OPENAI_API_KEY, see .env.example)"
 	@echo "make ci                  environment check and unit tests"
 	@echo "make status              show the configured paths"
 
@@ -279,6 +287,21 @@ sup-substitutions:
 # Retrains the model without cluster conditioning (two variants, a few minutes on CPU).
 condition-ablation:
 	$(PY) -m analyses.condition_ablation --config $(CONFIG) --out_dir $(SUP_OUT)/condition_ablation
+
+# CVAE vs GPT meals for the 34 archetypes (after `make eval`). gpt-generate calls the OpenAI API
+# (OPENAI_API_KEY from the environment or .env; pip install -r requirements-gpt.txt);
+# gpt-evaluate needs no API access and also works on a results file from elsewhere
+# (make gpt-evaluate GPT_RESULTS=path/to/experiment_results.json).
+gpt-comparison: gpt-generate gpt-evaluate
+
+gpt-generate:
+	$(PY) $(PROJECT_ROOT)/experiments/gpt_comparison/generate_meals.py \
+	  --run_dir $(OUT) --model_dir $(MODEL_DIR) --out_dir $(GPT_OUT) \
+	  --model $(GPT_MODEL) --n_per_archetype $(GPT_N) --batch_size $(GPT_BATCH) --seed $(SEED)
+
+gpt-evaluate:
+	$(PY) $(PROJECT_ROOT)/experiments/gpt_comparison/evaluate.py \
+	  --results $(GPT_RESULTS) --run_dir $(OUT)
 
 # Quick check of training, evaluation and substitutions on a separate run
 # (outputs/runs/smoke). Needs the outputs of `make preprocess clustering`.
