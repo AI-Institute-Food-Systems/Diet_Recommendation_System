@@ -27,8 +27,9 @@ The findings below are from the article (see it for definitions, statistics and 
 - **Substitutions and θ sweeps**: one- to three-food substitutions between generated and real meals, the cost–benefit sweep over θ with knee points, and Figure 4 ([`make substitutions`](Makefile), [`make theta_sweep`](Makefile), [`make figure4a`](Makefile)).
 - **Supplementary analyses**: cluster stability, sensitivity, cost-model and ablation analyses behind S1 Tables 11–19 ([`make supplementary`](Makefile); see [analyses/README.md](analyses/README.md)).
 - **Manuscript export**: the Figure 2–4 panels and a log of the headline numbers with their source files ([`make manuscript-figures`](Makefile), [`make manuscript-numbers`](Makefile)).
+- **Comparison with GPT-4o** (optional, needs an OpenAI API key): CVAE and GPT meals for the same archetypes and targets, and their nutrition metrics ([`make gpt-comparison`](Makefile); see [experiments/gpt_comparison/README.md](experiments/gpt_comparison/README.md)).
 
-All results are regenerated from the raw survey files; no outputs are stored in the repository. With the pinned environment, every stage is deterministic. The GPT-4o comparison in the article needs API access and cached model responses and is not part of this repository.
+All results are regenerated from the raw survey files; no outputs are stored in the repository. With the pinned environment, every stage is deterministic. The GPT comparison is the one step that calls an external service: its GPT meals depend on the OpenAI model at the time of the run.
 
 Full mapping of the paper's figures, tables and numbers to commands and output files: [docs/PAPER_MAPPING.md](docs/PAPER_MAPPING.md).
 
@@ -75,6 +76,7 @@ Targets are defined in the **`Makefile`** (recommended entry point; `make help` 
 | Figure 4A worked example | `make figure4a` | < 1 min |
 | Headline numbers log (`outputs/final_results_log.txt`) | `make manuscript-numbers` | < 1 min |
 | Export manuscript Figure 2–4 panels | `make manuscript-figures` | < 1 min |
+| CVAE vs GPT comparison (optional; OpenAI API key in `.env`, see below) | `make gpt-comparison` | 30–60 min |
 
 \* On a 16-core (32-thread) CPU.
 
@@ -87,6 +89,18 @@ make pipeline-status
 ```
 
 Configuration files and defaults: [config/README.md](config/README.md). Output layout (including `presence_only_model/` vs `model/`) and troubleshooting: [docs/STRUCTURE.md](docs/STRUCTURE.md).
+
+### GPT comparison (optional)
+
+The comparison with GPT-4o asks an OpenAI model for meals from the same foods and with the same targets as the CVAE, then scores both sets of meals. It needs your own OpenAI API key and is billed by OpenAI, so it is not part of `make reproduce`. After `make reproduce`:
+
+```bash
+pip install -r requirements-gpt.txt     # the openai package
+cp .env.example .env                    # edit .env: OPENAI_API_KEY=<your key>
+make gpt-comparison                     # results in outputs/runs/eval_run/gpt_comparison/gpt-4o/
+```
+
+`.env` is git-ignored; exporting `OPENAI_API_KEY` in the shell works too. `make gpt-evaluate` scores an existing results file without calling the API. Options (`GPT_MODEL`, the number of meals, batch size) and the metrics: [experiments/gpt_comparison/README.md](experiments/gpt_comparison/README.md).
 
 ### GitHub Actions
 
@@ -106,7 +120,7 @@ Each stage writes its progress to a log under `logs/<stage>/` (`preprocessing`, 
 |------|---------|
 | [`cli/`](cli/) | Pipeline entry points (`run_clustering`, `run_multi_meal_cvae`, `evaluate`) |
 | [`src/`](src/) | Library code: preprocessing, clustering, CVAE models, meal generator and portioning, evaluation metrics and plots |
-| [`experiments/`](experiments/) | Substitution analysis and Figure 4 |
+| [`experiments/`](experiments/) | Substitution analysis and Figure 4; CVAE vs GPT comparison |
 | [`analyses/`](analyses/) | Supplementary analyses (S1 Tables 11–19) |
 | [`config/`](config/) | JSON configs (`cvae_multi_meal.json`, the 34 archetypes, cluster names, manuscript figure map) |
 | [`scripts/`](scripts/) | Headline numbers log, figure export, environment and status checks |

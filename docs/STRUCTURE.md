@@ -11,7 +11,7 @@
 | [`src/core/`](../src/core/) | Meal generator (decoding and RDI-per-kcal portioning), training helpers, nutrient harmonisation |
 | [`src/pipeline_eval/`](../src/pipeline_eval/) | Evaluation and visualisation steps used by `cli/evaluate.py` |
 | [`src/analysis_rdi_eval/`](../src/analysis_rdi_eval/) | Nutrition metrics, bootstrap statistics and Figure 3 plotting |
-| [`experiments/`](../experiments/) | Food-substitution analysis and Figure 4 |
+| [`experiments/`](../experiments/) | Food-substitution analysis and Figure 4; CVAE vs GPT comparison (`gpt_comparison/`) |
 | [`analyses/`](../analyses/) | Supplementary analyses (S1 Tables 11–19) |
 | [`scripts/`](../scripts/) | Headline-numbers log, figure export, environment and status checks |
 | [`config/`](../config/) | Model configuration, the 34 archetypes, cluster names, figure registry |
@@ -58,6 +58,7 @@ outputs/
 │   │   ├── figures_theta<θ>_k<k>/          per-k category heatmaps (make substitutions)
 │   │   ├── figures_theta_sweep/            knee θ per k, Figure 4B–D, per-θ summary CSVs (make theta_sweep)
 │   │   └── figure4a/                       Figure 4A (make figure4a)
+│   ├── gpt_comparison/<model>/             make gpt-comparison: CVAE and GPT meals (experiment_results.json), evaluation/
 │   └── supplementary/                      make supplementary, make condition-ablation
 ├── manuscript/
 │   ├── figures/figure_<n>_*/panels/        Figure 2–4 panels (make manuscript-figures)

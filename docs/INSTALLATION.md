@@ -8,7 +8,8 @@
   (about 6.5 GB, mostly intermediate preprocessing files) and the outputs (about 1.5 GB).
 - **CPU**: no GPU is needed. The full pipeline takes about 3 hours on a 16-core (32-thread) CPU;
   it runs on fewer cores, more slowly.
-- **Network**: only for installing packages. The input data are in the repository.
+- **Network**: only for installing packages. The input data are in the repository. (The optional
+  GPT comparison also calls the OpenAI API.)
 
 ## Virtual environment
 
@@ -33,6 +34,17 @@ If `python3` on your system is not 3.11, call `make setup PY=python3.11`.
 `requirements.txt` pins every package the code imports to a tested version.
 Other versions usually work, but they can change floating-point results and, with them, the trained
 model and the numbers that depend on it.
+
+## Optional: GPT comparison
+
+`make gpt-comparison` needs one more package and an OpenAI API key:
+
+```bash
+pip install -r requirements-gpt.txt
+cp .env.example .env               # then add your key: OPENAI_API_KEY=...
+```
+
+See [experiments/gpt_comparison/README.md](../experiments/gpt_comparison/README.md).
 
 ## Check the environment
 

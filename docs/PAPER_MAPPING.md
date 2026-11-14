@@ -64,5 +64,13 @@ separately, as the figure captions state.
 S1 Tables 1–4 describe the survey data and the preprocessing steps. [analyses/README.md](../analyses/README.md)
 describes each supplementary analysis and the settings it uses.
 
-The GPT-4o comparison in the Results is not part of this repository: it needs access to the
-OpenAI API and the model responses collected for the paper.
+## Comparison with GPT-4o (Results; S1 §B.3)
+
+| Result | Command | Output (under `outputs/runs/eval_run/gpt_comparison/gpt-4o/`) |
+|---|---|---|
+| Meals compared (100 per archetype and method) | `make gpt-generate` | `experiment_results.json` |
+| AMDR compliance, macronutrient shares and diversity of CVAE and GPT-4o meals | `make gpt-evaluate` | `evaluation/comparison.txt`, `evaluation/summary_metrics.csv` |
+
+`make gpt-generate` calls the OpenAI API and needs an API key (`.env.example`); `make gpt-evaluate`
+does not. The GPT meals depend on the OpenAI model at the time of the run. Details:
+[experiments/gpt_comparison/README.md](../experiments/gpt_comparison/README.md).

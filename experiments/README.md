@@ -13,6 +13,7 @@ in Figure 4.
 | [`plot_substitution_figures.py`](plot_substitution_figures.py) | `substitutions`, `theta_sweep` | Category heatmaps per run; knee θ per k, Figure 4B and Figure 4C–D across the sweep |
 | [`substitution_foldchange/`](substitution_foldchange/) | `figure4a` | Figure 4A, a worked example ([README](substitution_foldchange/README.md)) |
 | [`costs/restaurant_pricing.py`](costs/restaurant_pricing.py) | (imported) | Portion-based restaurant prices (S1 Table 16) |
+| [`gpt_comparison/`](gpt_comparison/) | `gpt-comparison` | CVAE versus GPT-4o meals for the same archetypes and targets ([README](gpt_comparison/README.md)); optional, needs an OpenAI API key |
 
 All inputs come from `make eval` (`outputs/runs/<RUN_NAME>/data_exports/`); outputs go to
 `outputs/runs/<RUN_NAME>/substitutions_k3/`.

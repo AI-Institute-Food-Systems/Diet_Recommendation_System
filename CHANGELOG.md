@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- `make gpt-comparison`: the comparison with GPT-4o (Results; S1 §B.3). `make gpt-generate` asks
+  an OpenAI model for meals from each archetype's foods with the CVAE's targets and generates the
+  CVAE's meals for the same archetypes; `make gpt-evaluate` computes AMDR compliance,
+  macronutrient shares, diversity, MAR and MER for both. Optional: needs an OpenAI API key
+  (`.env.example`) and `requirements-gpt.txt`.
+
 ## v1.0.0 (2026-11-13)
 
 First release, accompanying Chan & Tagkopoulos (2026), *PLOS Digital Health* 5(5): e0001367
