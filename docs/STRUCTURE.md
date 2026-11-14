@@ -12,7 +12,7 @@
 | [`src/pipeline_eval/`](../src/pipeline_eval/) | Evaluation and visualisation steps used by `cli/evaluate.py` |
 | [`src/analysis_rdi_eval/`](../src/analysis_rdi_eval/) | Nutrition metrics, bootstrap statistics and Figure 3 plotting |
 | [`experiments/`](../experiments/) | Food-substitution analysis and Figure 4; CVAE vs GPT comparison (`gpt_comparison/`) |
-| [`analyses/`](../analyses/) | Supplementary analyses (S1 Tables 11–19) |
+| [`analyses/`](../analyses/) | Supplementary analyses (S1 Table 6, Tables 11–19) |
 | [`scripts/`](../scripts/) | Headline-numbers log, figure export, environment and status checks |
 | [`config/`](../config/) | Model configuration, the 34 archetypes, cluster names, figure registry |
 | [`data/`](../data/) | Input data: NHANES recall files, FNDDS tables, food prices |

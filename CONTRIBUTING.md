@@ -31,8 +31,8 @@ command that failed and the relevant part of the log under `logs/`.
 1. Update [`CHANGELOG.md`](CHANGELOG.md), and `version` and `date-released` in
    [`CITATION.cff`](CITATION.cff).
 2. Tag the release on `main` and publish a GitHub release from the tag, for example
-   `git tag -a v1.0.0 -m "v1.0.0" && git push origin v1.0.0`, then
-   `gh release create v1.0.0 --notes-file <notes>`.
+   `git tag -a vX.Y.Z -m "vX.Y.Z" && git push origin vX.Y.Z`, then
+   `gh release create vX.Y.Z --notes-file <notes>`.
 
 ## Licence
 

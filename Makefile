@@ -246,8 +246,12 @@ SUP_SUBST = $(PY) -m experiments.analyze_meal_substitutions --data_dir $(OUT) --
 
 supplementary: sup-clustering sup-evaluation sup-substitutions
 
-# S1 Table 12 and section 1.2.4: subsample stability and the leakage-safe check.
+# S1 Table 6 (archetype table), S1 Table 12 and section 1.2.4 (subsample stability, leakage-safe check).
 sup-clustering:
+	$(PY) -m analyses.archetype_table --clustering_dir $(CLUSTER_OUT) \
+	  --meals_dir $(PROJECT_ROOT)/data/processed/real_meals/dataframes \
+	  --archetypes $(CLUSTER_FILTER) --names $(PROJECT_ROOT)/config/cluster_names.json \
+	  --out_dir $(SUP_OUT)/archetype_table
 	set -e; for m in breakfast lunch dinner; do \
 	  frac=0.5; folds=2; [ "$$m" = "breakfast" ] && { frac=0.8; folds=3; }; \
 	  $(PY) -m analyses.cluster_stability --meal_type $$m --B 10 --subsample_frac $$frac \

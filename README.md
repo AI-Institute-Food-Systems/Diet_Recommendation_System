@@ -25,7 +25,7 @@ The findings below are from the article (see it for definitions, statistics and 
 - **Generative model**: the multi-meal, presence-only **CVAE** with 5-fold cross-validation (S1 Table 7) ([`make cvae_train`](Makefile)).
 - **RDI evaluation**: one generated meal per real meal of each archetype, RDI-per-kcal portioning, nutrient metrics and bootstrap statistics, Figure 3 ([`make eval`](Makefile)).
 - **Substitutions and θ sweeps**: one- to three-food substitutions between generated and real meals, the cost–benefit sweep over θ with knee points, and Figure 4 ([`make substitutions`](Makefile), [`make theta_sweep`](Makefile), [`make figure4a`](Makefile)).
-- **Supplementary analyses**: cluster stability, sensitivity, cost-model and ablation analyses behind S1 Tables 11–19 ([`make supplementary`](Makefile); see [analyses/README.md](analyses/README.md)).
+- **Supplementary analyses**: cluster stability, sensitivity, cost-model and ablation analyses behind S1 Table 6 and Tables 11–19 ([`make supplementary`](Makefile); see [analyses/README.md](analyses/README.md)).
 - **Manuscript export**: the Figure 2–4 panels and a log of the headline numbers with their source files ([`make manuscript-figures`](Makefile), [`make manuscript-numbers`](Makefile)).
 - **Comparison with GPT-4o** (optional, needs an OpenAI API key): CVAE and GPT meals for the same archetypes and targets, and their nutrition metrics ([`make gpt-comparison`](Makefile); see [experiments/gpt_comparison/README.md](experiments/gpt_comparison/README.md)).
 
@@ -64,7 +64,7 @@ Targets are defined in the **`Makefile`** (recommended entry point; `make help` 
 | Goal | Command | Time* |
 |------|---------|-------|
 | Full pipeline: raw data to manuscript figures and the numbers log | `make reproduce` | 3 h |
-| Supplementary analyses (S1 Tables 11–19), after `make reproduce` | `make supplementary` | 1.75 h |
+| Supplementary analyses (S1 Table 6, Tables 11–19), after `make reproduce` | `make supplementary` | 1.75 h |
 | Condition ablation (retrains two models) | `make condition-ablation` | 3 min |
 | Quick check of training, evaluation and substitutions (after clustering) | `make smoke` | 35 min |
 | Preprocess only | `make preprocess` | 10 min |
@@ -104,7 +104,7 @@ make gpt-comparison                     # results in outputs/runs/eval_run/gpt_c
 
 ### GitHub Actions
 
-Continuous integration runs on pushes and pull requests ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)): it installs the pinned requirements and runs `make ci`, which checks the environment, the configuration files and that every entry point imports and parses its arguments. These checks need no pipeline outputs.
+Continuous integration runs on pushes and pull requests ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)): it installs the pinned requirements and runs `make ci`, which checks the environment, the configuration files and that every entry point imports and parses its arguments, and tests the GPT comparison's response parsing and evaluation on small made-up inputs. These checks need no pipeline outputs or API access.
 
 ### Data versioning
 
@@ -121,7 +121,7 @@ Each stage writes its progress to a log under `logs/<stage>/` (`preprocessing`, 
 | [`cli/`](cli/) | Pipeline entry points (`run_clustering`, `run_multi_meal_cvae`, `evaluate`) |
 | [`src/`](src/) | Library code: preprocessing, clustering, CVAE models, meal generator and portioning, evaluation metrics and plots |
 | [`experiments/`](experiments/) | Substitution analysis and Figure 4; CVAE vs GPT comparison |
-| [`analyses/`](analyses/) | Supplementary analyses (S1 Tables 11–19) |
+| [`analyses/`](analyses/) | Supplementary analyses (S1 Table 6, Tables 11–19) |
 | [`config/`](config/) | JSON configs (`cvae_multi_meal.json`, the 34 archetypes, cluster names, manuscript figure map) |
 | [`scripts/`](scripts/) | Headline numbers log, figure export, environment and status checks |
 | [`data/`](data/) | Input data (see [data/README.md](data/README.md)) |

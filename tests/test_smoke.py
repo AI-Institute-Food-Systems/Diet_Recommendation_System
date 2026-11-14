@@ -61,7 +61,7 @@ class EntryPointTest(unittest.TestCase):
         ["experiments/gpt_comparison/generate_meals.py", "--help"],
         ["experiments/gpt_comparison/evaluate.py", "--help"],
     ] + [["-m", f"analyses.{name}", "--help"] for name in (
-        "cluster_stability", "leakage_safe_clustering_cv", "lof_outlier_sensitivity",
+        "archetype_table", "cluster_stability", "leakage_safe_clustering_cv", "lof_outlier_sensitivity",
         "meal_split_sensitivity", "portion_ablation", "nutrient_level_summary",
         "primary_outcome_cis", "cost_sensitivity", "substitution_outcomes", "condition_ablation",
     )]
@@ -71,6 +71,28 @@ class EntryPointTest(unittest.TestCase):
             with self.subTest(entry_point=" ".join(args)):
                 r = _run(args)
                 self.assertEqual(r.returncode, 0, msg=(r.stderr or r.stdout)[-3000:])
+
+
+class ArchetypeTableTest(unittest.TestCase):
+    def test_counts_and_top_categories(self) -> None:
+        import numpy as np
+        import pandas as pd
+        if str(REPO_ROOT) not in sys.path:
+            sys.path.insert(0, str(REPO_ROOT))
+        from analyses.archetype_table import archetype_rows
+        labels = np.array([0, 0, 1, -1])
+        meals = pd.DataFrame({"11111111": [50.0, 0, 10, 0], "22222222": [0, 30.0, 0, 5],
+                              "33333333": [0, 0, 0, 80.0]})
+        report = pd.DataFrame({
+            "meal_type": ["breakfast"] * 4, "cluster_id": [0, 0, 0, 1],
+            "feature": ["grams_pizza", "protein_g", "grams_sweetened_beverages", "grams_fruits"],
+            "effect_size": [5.0, -7.5, 1.2, 2.0], "direction": ["HIGH", "LOW", "HIGH", "HIGH"],
+        })
+        rows = archetype_rows("Breakfast", labels, meals, report, [0], {"breakfast": {"0": "Pizza"}}, 5)
+        self.assertEqual(rows, [{"meal_type": "Breakfast", "cluster_id": 0, "cluster_name": "Pizza",
+                                 "n_meals": 2, "n_foods": 2,
+                                 "top_categories": "Pizza; Sweetened beverages",
+                                 "max_abs_cohens_d": 7.5}])
 
 
 class GPTComparisonTest(unittest.TestCase):

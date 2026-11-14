@@ -13,12 +13,13 @@ make condition-ablation   # retrains two models
 
 | Target | Analyses | Needs |
 |---|---|---|
-| `sup-clustering` | cluster stability, leakage-safe clustering check | `make clustering` |
+| `sup-clustering` | archetype table, cluster stability, leakage-safe clustering check | `make clustering` |
 | `sup-evaluation` | LOF sensitivity, meal energy split, portion ablation, nutrient-level summary, primary-outcome CIs | `make eval`, `make theta_sweep` |
 | `sup-substitutions` | cost-model sensitivity, substitution coverage and outcomes | `make eval` |
 
 | Result | Script |
 |---|---|
+| S1 Table 6, archetypes: meals, foods, top food categories, max \|Cohen's d\| | [`archetype_table.py`](archetype_table.py) |
 | S1 Table 11, meal energy-split sensitivity | [`meal_split_sensitivity.py`](meal_split_sensitivity.py) |
 | S1 Table 12 and §1.2.4, cluster stability | [`cluster_stability.py`](cluster_stability.py) |
 | S1 §1.2.4, leakage-safe clustering check | [`leakage_safe_clustering_cv.py`](leakage_safe_clustering_cv.py) |
@@ -34,7 +35,14 @@ Every script has `--help`, takes its input and output folders as arguments and f
 seeds, so a rerun gives the same files. Shared helpers (loading a run's exports, per-cluster
 medians, the portion-only generator, seeding) are in [`_common.py`](_common.py).
 
-## Clustering robustness
+## Archetypes and clustering robustness
+
+**Archetype table** (`archetype_table.py`, S1 Table 6). One row per archetype: the number of meals
+with its cluster label, the number of foods eaten in at least one of those meals (in the
+preprocessed meal matrix that clustering reads), up to five WWEIA food categories whose grams are
+significantly higher in the archetype than in the other meals (the FDR-controlled hurdle tests of
+`make clustering`), ranked by Cohen's d, and the largest absolute Cohen's d among the archetype's
+significant features. Output: `archetype_table/archetype_table.csv`.
 
 **Cluster stability** (`cluster_stability.py`). For each meal type, draws random subsamples of the
 meals, re-runs HDBSCAN with the fitted baseline's settings (minimum cluster size, minimum samples,

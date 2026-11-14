@@ -1,12 +1,14 @@
 # Changelog
 
-## Unreleased
+## v1.1.0 (2026-11-14)
 
 - `make gpt-comparison`: the comparison with GPT-4o (Results; S1 §B.3). `make gpt-generate` asks
   an OpenAI model for meals from each archetype's foods with the CVAE's targets and generates the
   CVAE's meals for the same archetypes; `make gpt-evaluate` computes AMDR compliance,
   macronutrient shares, diversity, MAR and MER for both. Optional: needs an OpenAI API key
   (`.env.example`) and `requirements-gpt.txt`.
+- `analyses/archetype_table.py` (run by `make sup-clustering`): S1 Table 6 with the number of
+  meals, number of foods, top food categories and largest absolute Cohen's d per archetype.
 
 ## v1.0.0 (2026-11-13)
 

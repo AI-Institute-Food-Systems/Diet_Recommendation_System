@@ -41,13 +41,14 @@ separately, as the figure captions state.
 | Meals with a feasible substitution, per k, and outcome distributions | — | `runs/eval_run/supplementary/substitution_outcomes/` (`make supplementary`) |
 | Meal and food counts after each preprocessing step, LOF removals | — | `logs/preprocessing/preprocessing.log` |
 | Cluster sizes and statistics | — | `clustering/cached_clustering.pkl`, `clustering/feature_contribution_report.csv`, `clustering/<meal>_cluster_diagnosis_report.txt` |
+| Discussion: F1 of 0.99 with the two design changes vs 0.64 without | — | 0.99 is the presence-only CVAE's F1 (S1 Table 7, `runs/eval_run/cv/summary_mean_std.csv`). 0.64 refers to the previous model tried during development, which predicted foods and gram amounts together; that model is not part of this repository. `make condition-ablation` retrains the presence-only model without the archetype condition |
 
 ## Supporting information (S1)
 
 | S1 item | Command | Output |
 |---|---|---|
 | Table 5 (meal features) | `make clustering` | columns of `clustering/<meal>_feature_matrix_unscaled.csv` |
-| Table 6 (archetypes: meals per cluster, maximum \|Cohen's d\|) | `make clustering` | `clustering/cached_clustering.pkl` (labels), `clustering/feature_contribution_report.csv` |
+| Table 6 (archetypes: meals, foods, top food categories, maximum \|Cohen's d\|) | `make sup-clustering` (after `make clustering`) | `runs/eval_run/supplementary/archetype_table/archetype_table.csv`, from `clustering/cached_clustering.pkl` and `clustering/feature_contribution_report.csv` |
 | Table 7 (5-fold cross-validation) | `make cvae_train` | `runs/eval_run/cv/summary_mean_std.csv` |
 | Tables 8–10 (energy fractions, gram caps, nutrient targets) | — | settings in `cli/evaluate.py`, `src/core/generator.py` and `data/raw/food_patterns/` |
 | Table 11 (meal energy split) | `make sup-evaluation` | `runs/eval_run/supplementary/meal_split_sensitivity/` |
